@@ -1,0 +1,43 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WebBrowsers"
+        xmlns:libcef="clr-namespace:CefSharp.Wpf;assembly=CefSharp.Wpf"
+        xmlns:eo="http://schemas.essentialobjects.com/wpf/" x:Class="WebBrowsers.MainWindow"
+        mc:Ignorable="d"
+        Title="WebBrowsers" Loaded="Window_Loaded" Closing="Window_Closing">
+    <Grid x:Name="grid">
+        <!-- 行を2つ定義 -->
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30" />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <!-- 列を2つ定義 -->
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        <Rectangle Fill="{DynamicResource {x:Static SystemColors.ControlBrushKey}}" Margin="0" Grid.ColumnSpan="3"/>
+        <StackPanel x:Name="utlsmenuStackPanel" Grid.Column="0" Orientation="Horizontal" Grid.ColumnSpan="3" HorizontalAlignment="Center">
+            <TextBox x:Name="textBox" Height="23" Margin="0" TextWrapping="Wrap" Text="http://www.yahoo.co.jp" VerticalAlignment="Center" KeyDown="textBox_KeyDown" HorizontalAlignment="Center" Width="450"/>
+            <Button Content="Yahoo!" HorizontalAlignment="Center" Margin="8,3,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+            <Button Content="確認君" HorizontalAlignment="Center" Margin="8,3,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_1"/>
+            <Button Content="mztm.jp" HorizontalAlignment="Center" Margin="8,3,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_2"/>
+
+        </StackPanel>
+        
+        <WebBrowser x:Name="webBrowser" Margin="0,0,0,21" Grid.Row="1" Navigated="webBrowser_Navigated"/>
+        <TextBlock x:Name="webBrowserTextBlock" Margin="8,0,0,2" Grid.Row="1" TextWrapping="Wrap" Text="" VerticalAlignment="Bottom"/>
+        
+        <GridSplitter Grid.Row="1" Grid.Column="1" HorizontalAlignment="Left" VerticalAlignment="Stretch" Width="4" />
+        <libcef:ChromiumWebBrowser x:Name="chromiumWebBrowser" Address="" Grid.Row="1" Grid.Column="1" Margin="4,0,0,21" />
+        <TextBlock x:Name="chromiumWebBrowserTextBlock" Margin="8,0,0,2" Grid.Row="1" TextWrapping="Wrap" Text="" VerticalAlignment="Bottom" Grid.Column="1"/>
+
+        <GridSplitter Grid.Row="1" Grid.Column="2" HorizontalAlignment="Left" VerticalAlignment="Stretch" Width="4" />
+        <eo:WebControl x:Name="eoWebControl" Margin="4,0,0,21" Grid.Row="1" Grid.Column="2"/>
+        <TextBlock x:Name="eoWebControlTextBlock" Margin="8,0,0,2" Grid.Row="1" TextWrapping="Wrap" Text="" VerticalAlignment="Bottom" Grid.Column="2"/>
+    </Grid>
+</Window>

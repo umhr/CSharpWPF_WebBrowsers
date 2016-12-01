@@ -1,0 +1,14 @@
+C:\Users\bxi5\Dropbox\works\160623pana8k\test\WebBrowsers\WebBrowsers\bin\Debug\WebBrowsers.exe.config
+C:\Users\bxi5\Dropbox\works\160623pana8k\test\WebBrowsers\WebBrowsers\bin\Debug\WebBrowsers.exe
+C:\Users\bxi5\Dropbox\works\160623pana8k\test\WebBrowsers\WebBrowsers\bin\Debug\WebBrowsers.pdb
+C:\Users\bxi5\Dropbox\works\160623pana8k\test\WebBrowsers\WebBrowsers\obj\Debug\WebBrowsers.csprojResolveAssemblyReference.cache
+C:\Users\bxi5\Dropbox\works\160623pana8k\test\WebBrowsers\WebBrowsers\obj\Debug\MainWindow.g.cs
+C:\Users\bxi5\Dropbox\works\160623pana8k\test\WebBrowsers\WebBrowsers\obj\Debug\App.g.cs
+C:\Users\bxi5\Dropbox\works\160623pana8k\test\WebBrowsers\WebBrowsers\obj\Debug\WebBrowsers_MarkupCompile.cache
+C:\Users\bxi5\Dropbox\works\160623pana8k\test\WebBrowsers\WebBrowsers\obj\Debug\WebBrowsers_MarkupCompile.lref
+C:\Users\bxi5\Dropbox\works\160623pana8k\test\WebBrowsers\WebBrowsers\obj\Debug\MainWindow.baml
+C:\Users\bxi5\Dropbox\works\160623pana8k\test\WebBrowsers\WebBrowsers\obj\Debug\WebBrowsers.g.resources
+C:\Users\bxi5\Dropbox\works\160623pana8k\test\WebBrowsers\WebBrowsers\obj\Debug\WebBrowsers.Properties.Resources.resources
+C:\Users\bxi5\Dropbox\works\160623pana8k\test\WebBrowsers\WebBrowsers\obj\Debug\WebBrowsers.csproj.GenerateResource.Cache
+C:\Users\bxi5\Dropbox\works\160623pana8k\test\WebBrowsers\WebBrowsers\obj\Debug\WebBrowsers.exe
+C:\Users\bxi5\Dropbox\works\160623pana8k\test\WebBrowsers\WebBrowsers\obj\Debug\WebBrowsers.pdb
